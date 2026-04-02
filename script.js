@@ -13,10 +13,10 @@ let otherWeaknessText = '';
 ══════════════════════════════════════════════ */
 const WEAKNESSES = {
   male: [
-    { emoji: '😏🧣', label: 'Falls for Mask Girl' },
-    { emoji: '💕🎙️', label: 'Cute Voice Girl'    },
-    { emoji: '🎓👩', label: 'Senior Girl'         },
-    { emoji: '😰',   label: 'Afraid to Approach'  },
+    { emoji: '💪👩', label: 'Fit Girl aka GYM Girl'        },
+    { emoji: '💇‍♀️✨', label: 'Hairs till Waist – Long Hair Girl' },
+    { emoji: '🎓👩', label: 'Senior Girl'                   },
+    { emoji: '😍👧', label: 'Good Looking Girl'             },
   ],
   female: [
     { emoji: '💪🏋️', label: 'Fit Boy aka GYM Freak' },
@@ -230,7 +230,7 @@ function showResult() {
 
   /* Default fallbacks per gender */
   const defaults = {
-    male:   ['Falls for mask girl / cute voice 😏', 'Overthinks at 3 AM 🌙', 'Says "I\'m fine" but clearly not 💀'],
+    male:   ['Fit Girl aka GYM Girl 💪', 'Hairs till Waist – Long Hair Girl 💇‍♀️', 'Senior Girl 🎓'],
     female: ['Goes for gym freak guys 💪', 'Can\'t resist curly hair boys 🌀', 'Totally into good looking guys 😍'],
     other:  ['Falls for anyone with a nice vibe ✨', 'Overthinks texts at 2 AM 💭', 'Smiles and says "I\'m fine" 💀'],
   };
